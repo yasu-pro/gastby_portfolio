@@ -1,0 +1,70 @@
+{
+    "name": "yasu",
+    "version": "5.1.2",
+    "author": "yasu",
+    "description": "yasu's portfolio",
+    "license": "MIT",
+    "main": "index.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "start": "gatsby develop",
+        "clean": "gatsby clean"
+    },
+    "peerDependencies": {
+        "gatsby": "^5.5.0",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "dependencies": {
+        "@lekoarts/gatsby-theme-cara": "^5.0.5",
+        "@mdx-js/mdx": "^2.3.0",
+        "@mdx-js/react": "^2.3.0",
+        "@react-spring/parallax": "^9.7.3",
+        "gatsby": "^5.5.0",
+        "gatsby-image": "^3.11.0",
+        "gatsby-plugin-image": "^3.11.0",
+        "gatsby-plugin-manifest": "^5.10.0",
+        "gatsby-plugin-mdx": "^5.11.0",
+        "gatsby-plugin-sass": "^6.11.0",
+        "gatsby-plugin-sharp": "^5.11.0",
+        "gatsby-plugin-static-folders": "^1.0.1",
+        "gatsby-plugin-webpack-statoscope": "^1.0.3",
+        "gatsby-remark-images": "^7.11.0",
+        "gatsby-source-filesystem": "^5.11.0",
+        "gatsby-source-strapi": "^3.3.0",
+        "gatsby-transformer-remark": "^6.11.0",
+        "gatsby-transformer-sharp": "^5.11.0",
+        "normalize.css": "^8.0.1",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "sass": "^1.63.6",
+        "sass-loader": "^13.3.2",
+        "styled-components": "^6.0.0-rc.6",
+        "theme-ui": "^0.15.7"
+    },
+    "keywords": [
+        "gatsby",
+        "gatsby-theme",
+        "gatsby-plugin",
+        "yasu"
+    ],
+    "bugs": {
+        "url": "https://github.com/LekoArts/gatsby-themes/issues"
+    },
+    "homepage": "https://themes.lekoarts.de",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LekoArts/gatsby-themes.git",
+        "directory": "themes/gatsby-theme-cara"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "devDependencies": {
+        "netlify-cli": "^15.9.0"
+    }
+}

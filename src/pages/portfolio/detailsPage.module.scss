@@ -1,0 +1,27 @@
+@import '../../components/mixin/mixin.scss';
+
+.detailsPage {
+    padding: 1rem;
+    @include bpPcs {
+        padding: 4rem;
+    }
+    @include bpSp {
+        padding: 2rem;
+    }
+}
+
+.headLine {
+    text-align: left;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contentWrap {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
